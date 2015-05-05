@@ -1,2 +1,114 @@
 # Todas-las-Meta-TAG
 Todas las metas tag HTML
+
+Technical Formatting Meta Tags
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="content-language" content="en-gb">
+Search Engine Meta Tags
+
+<meta name="keywords" content="meta tags, icra, favicons, apple touch icon, x-ua-compatible"> <!--no longer used by Google-->
+<meta name="description" content="Meta Tags can inform search engines about the most relevant keywords used on the page, provide a short summary of the page contents and describe the formatting of the page such as the language it has been written in.">
+Favicon Meta Tags (use top two)
+
+<link rel="icon" href="http://www.example.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.example.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.example.com/favicon.ico" type="image/vnd.microsoft.icon"><!--The 2010 IANA standard but not supported in IE-->
+Apple Touch Icon for iPad and iPhone Meta Tag
+
+<link rel="apple-touch-icon" href="http://www.example.com/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="http://www.example.com/apple-touch-icon.png"><!--prevents rendering-->
+Apple Safari iPad and iPhone Meta Tags
+
+<meta name="viewport" content="width = device-width">
+<meta name="viewport" content="initial-scale = 1.0">
+<meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no"><!--width is pixels, range 200 to 10000-->
+<meta name="format-detection" content="telephone=no"> <!--disables automatic detection of possible phone numbers-->
+<meta name="apple-mobile-web-app-capable" content="yes"><!--specifies full-screen mode-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black"><!--specify full-screen mode first-->
+Search Engine Robots Meta Tags
+
+<meta name="revisit-after" content="10 days">
+<meta name="googlebot" content="noodp">
+<meta name="msnbot" content="noodp">
+<meta name="slurp" content="noodp, noydir"> <!--yahoo-->
+<meta name="teoma" content="noodp"> <!--ask-->
+<meta name="robots" content="noodp, noydir">
+<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, follow">
+<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="noarchive"> <!--don't cache-->
+<meta name="robots" content="nosnippet"> <!--google doesn't show snippet-->
+<meta name="robots" content="index, follow, noodp, noydir, noarchive">
+Browser Compatibility Meta Tags for Internet Explorer v8+
+
+<meta http-equiv="x-ua-compatible" content="ie=7"> <!--render Internet Explorer v7 standards mode regardless of doctype-->
+<meta http-equiv="x-ua-compatible" content="ie=emulateie7"> <!--render according to doctype, standards is v7 and quirks is v5-->
+<meta http-equiv="x-ua-compatible" content="ie=8"> <!--render Internet Explorer v8 standards mode regardless of doctype-->
+<meta http-equiv="x-ua-compatible" content="ie=emulateie8"> <!--render according to doctype, standards is v8 and quirks is v5-->
+<meta http-equiv="x-ua-compatible" content="ie=edge"> <!--render using latest version of Internet Explorer-->
+<meta http-equiv="x-ua-compatible" content="ie=5"> <!--render using Internet Explorer v7 quirks mode, which is like v5-->
+<meta http-equiv="x-ua-compatible" content="ie=5; ie=8"> <!--render using v8 if available, otherwise use v5 instead of v6 or v7-->
+<meta http-equiv="x-ua-compatible" content="chrome=1"> <!--render using Chrome if available-->
+<meta http-equiv="x-ua-compatible" content="ie=emulateie7; chrome=1"> <!--render Chrome if available or Internet Explorer v7-->
+Pinterest Meta Tags
+
+<meta name="pinterest" content="nopin"> <!--prevents sharing of content by Pinterest users-->
+<meta property="og:title" content="Meta Tags"> <!--required for product pin-->
+<meta property="og:price:amount" content="15.00"> <!--required for product pin--> <!--include decimal places-->
+<meta property="og:price:currency" content="GBP"> <!--required for product pin-->
+Open Graph Protocol OG Meta Tags (Facebook Opengraph Meta Tags)
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<meta property="og:image" content="http://www.example.com/image.jpg"> <!--used for Facebook Share thumbnail-->
+<meta property="og:image" content="http://www.example.com/image2.jpg"> <!--multiple og:image permitted-->
+<meta property="og:title" content="Meta Tags">
+<meta property="og:description" content="Meta Tags can inform search engines about the content of a web page">
+<meta property="og:site_name" content="Quotes">
+<meta property="og:url" content="http://www.example.com/web/page.htm">
+<meta property="og:type" content="product"> <!--product, blog, website, book, movie, game, actor, see http://ogp.me/#types-->
+<meta property="og:price:amount" content="15.00"> <!--include decimal places-->
+<meta property="og:price:currency" content="GBP">
+<meta property="og:availability" content="instock"> <!--instock/in stock/preorder/backorder/out of stock/discontinued-->
+<meta property="og:brand" content="Acme"> <!--more tags at http://graph.facebook.com/schema/og/product-->
+<meta property="og:latitude" content="50.97590">
+<meta property="og:longitude" content="0.01722">
+<meta property="og:street-address" content="3 Cricketfield">
+<meta property="og:locality" content="Newick">
+<meta property="og:region" content="East Sussex">
+<meta property="og:postal-code" content="BN8 4LL">
+<meta property="og:country-name" content="UK">
+<meta property="og:email" content="email@example.com">
+<meta property="og:phone_number" content="555 123 4567">
+<meta property="og:fax_number" content="+44 555 123 4567">
+<meta property="og:video" content="http://www.example.com/video.flv">
+<meta property="og:video:height" content="640">
+<meta property="og:video:width" content="385">
+<meta property="og:video:type" content="application/x-shockwave-flash">
+<meta property="og:audio" content="http://www.example.com/audio.mp3">
+<meta property="og:audio:title" content="Song Title">
+<meta property="og:audio:artist" content="Name of Band">
+<meta property="og:audio:album" content="Album Title">
+<meta property="og:audio:type" content="application/mp3">
+<meta property="og:upc" content="885909367481"> <!--UPC EAN barcodes-->
+<meta property="og:isbn" content="1873520786"> <!--book ISBN number-->
+News Feed Meta Tags
+
+<link rel="alternate" type="application/rss+xml" title="Example (Feedburner)" href="http://feeds.feedburner.com/example">
+<link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)" href="http://www.example.com/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Example (RSS 2.0)" href="http://www.example.com/rss.xml">
+Authoring Meta Tags
+
+<meta name="author" content="Quotes">
+<meta name="publisher" content="www.quotes.uk.com">
+<meta name="copyright" content="www.quotes.uk.com">
+<meta name="host" content="www.quotes.uk.com">
+<meta name="generator" content="Adobe Dreamweaver">
+Geo Positioning Meta Tags
+
+<meta name="geo.position" content="50.97590;0.01722">
+<meta name="geo.region" content="GB">
+<meta name="geo.placename" content="Newick, East Sussex, United Kingdom">
+<meta name="ICBM" content="50.9759, 0.0172">
+<meta name="DC.title" content="Quotes - Web Design and Web Hosting">
