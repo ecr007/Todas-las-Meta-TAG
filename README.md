@@ -1,6 +1,7 @@
 # Todas-las-Meta-TAG
 Todas las metas tag HTML
 
+<pre>
 Technical Formatting Meta Tags
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
@@ -112,3 +113,5 @@ Geo Positioning Meta Tags
 <meta name="geo.placename" content="Newick, East Sussex, United Kingdom">
 <meta name="ICBM" content="50.9759, 0.0172">
 <meta name="DC.title" content="Quotes - Web Design and Web Hosting">
+
+</pre>
